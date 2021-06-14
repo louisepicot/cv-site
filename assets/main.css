@@ -165,6 +165,14 @@ button {
         color: black;
     }
 
+    a {
+        color: black;
+    }
+
+    h4 {
+        color: rgb(99, 99, 99);
+    }
+
     .container {
 
         margin: 0;
