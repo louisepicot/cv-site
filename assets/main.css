@@ -3,10 +3,10 @@
     src: url('./fonts/Sinistre-StCaroline.woff2') format('woff2'), url('./fonts/Sinistre-StCaroline.woff') format('woff');
 }
 
-/* @font-face {
+@font-face {
     font-family: "cirrus-cumulus";
     src: url('./fonts/CirrusCumulus.woff') format('woff');
-} */
+}
 
 body {
 
@@ -20,8 +20,9 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "sinistre";
+    font-family: "cirrus-cumulus";
     margin-bottom: 0.7em;
+    font-weight: 500;
 }
 
 h4 {
