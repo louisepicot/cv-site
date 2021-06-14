@@ -112,9 +112,3 @@
 
 
 }
-
-@media print {
-    .container {
-        margin: 0;
-    }
-}
