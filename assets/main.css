@@ -47,7 +47,7 @@ a {
 }
 
 .avatar {
-    height: 122px;
+    height: 143px;
     object-fit: cover;
 }
 
@@ -92,6 +92,10 @@ p {
 .contacts {
     /* margin-left: 20px; */
 
+}
+
+.contacts h3 {
+    margin-bottom: 1em;
 }
 
 .flexbox {
