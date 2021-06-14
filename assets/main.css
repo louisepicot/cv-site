@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "sinistre";
+    src: url('./fonts/Sinistre-StCaroline.woff2') format('woff2'), url('./fonts/Sinistre-StCaroline.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: "cirrus-cumulus";
+    src: url('./fonts/CirrusCumulus.woff') format('woff');
+} */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.25em;
+    color: #370000;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: "sinistre";
+    margin-bottom: 0.6em;
+}
+
+h4 {
+    color: #37000079;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #38008d;
+
+}
+
+.avatar {
+    height: 122px;
+    object-fit: cover;
+}
+
+p {
+    margin-bottom: 0.6em;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 2em;
+}
+
+p {
+    margin-bottom: 0.6em;
+    margin-left: 0.6em;
+}
+
+.header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.experiences {
+    column-count: 2;
+    column-gap: 2em;
+    margin-bottom: 1em;
+}
+
+
+
+
+.contacts h3,
+.contacts p {
+    padding: 0;
+    margin: 0;
+}
+
+.contacts {
+    /* margin-left: 20px; */
+
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox>div {
+    width: calc(50% - 1em);
+}
