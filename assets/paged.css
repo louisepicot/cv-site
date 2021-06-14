@@ -46,6 +46,8 @@
     columns: 2;
 }
 
+
+
 @media screen {
 
     body {
@@ -106,5 +108,13 @@
 
     .debug .pagedjs_margin-left>div {
         box-shadow: 0 0 0 1px inset var(--color-mbox);
+    }
+
+
+}
+
+@media print {
+    .container {
+        margin: 0;
     }
 }
