@@ -123,6 +123,10 @@ iframe {
     height: 100vh;
 }
 
+.container2 {
+    padding: 0;
+}
+
 @media screen and (max-width: 900px) {
 
     .avatar {
@@ -188,6 +192,10 @@ iframe {
     }
 
     button {
+        display: none;
+    }
+
+    .container2 {
         display: none;
     }
 
