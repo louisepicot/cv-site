@@ -111,6 +111,55 @@ ul {
     box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.144);
 }
 
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+@media (max-width: 900px) {
+
+    .avatar {
+        height: 6em;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .experiences {
+        column-count: 1;
+        column-gap: 2em;
+        margin-bottom: 1.3em;
+    }
+
+    .container {
+
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        box-shadow: inherit;
+    }
+
+    .flexbox {
+        display: block;
+    }
+
+    .flexbox>div {
+        width: 100%;
+    }
+
+    .education {
+        margin-bottom: 2em;
+    }
+
+    button {
+        position: fixed;
+        margin: 20px;
+    }
+
+}
+
 @media print {
     body {
         color: black;
