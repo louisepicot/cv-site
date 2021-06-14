@@ -118,7 +118,7 @@ button {
 }
 
 
-@media (max-width: 900px) {
+@media screen (max-width: 900px) {
 
     .avatar {
         height: 6em;
